@@ -7,7 +7,7 @@ const value = ['none', 'A', 'B', 'C', 'D'];
 const data = ['--Please choose an option--', 'A', 'B', 'C', 'D'];
 let number = 1;
 let result = 0;
-const count = 180;
+const count = 10;
 
 
 function test() {
@@ -65,7 +65,7 @@ function check() {
 };
 
 function CreateResult() {
-  document.getElementById('result').innerHTML = `Nombre de bonne reponse: <span>${result}/${count}` + Math.floor(result / count * 20); +' ' + Math.floor(result / count * 100) + `%</span>`;
+  document.getElementById('result').innerHTML = `Nombre de bonne reponse total: <span>${result}/${count}</span> note sur 20: <span style="color:blue;">` + Math.floor(result / count * 20) + '/20</span> Pourcentage du score: <span style="color:red;">' + Math.floor(result / count * 100) + `%</span>`;
 };
 
 addEventListener('load', () => {
