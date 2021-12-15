@@ -39,7 +39,7 @@ function check() {
     const rep = document.getElementById('question' + index).value;
     if (rep === '--Please choose an option--') {
       console.log('Error: manque une reponse');
-      alert(`Error: Manque des reponses ${index}`);
+      alert(`Error: Manque une reponses a la question: ${index}`);
       break;
     };
     args[number] = rep;
