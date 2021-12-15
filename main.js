@@ -65,7 +65,7 @@ function check() {
 };
 
 function CreateResult() {
-  document.getElementById('result').innerHTML = `Nombre de bonne reponse: <span>${result}/${count} ` + Math.floor(result / count * 100) + `%</span>`;
+  document.getElementById('result').innerHTML = `Nombre de bonne reponse: <span>${result}/${count}` + Math.floor(result / count * 20); +' ' + Math.floor(result / count * 100) + `%</span>`;
 };
 
 addEventListener('load', () => {
