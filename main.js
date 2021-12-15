@@ -3,8 +3,8 @@ const reponse = ['A', 'B', 'A', 'C', 'A', 'D', 'A', 'A', 'A']; // Mettre les rep
 //////////////////////////////////////////////////////Programmes//////////////////////////////////////////////////////////
 
 const args = [];
-const value = ['none', 'A', 'B', 'C', 'D'];
-const data = ['--Please choose an option--', 'A', 'B', 'C', 'D'];
+const value = ['none', 'none', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+const data = ['--Please choose an option--', 'Aucune reponse', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 let number = 1;
 let result = 0;
 const count = 22;
