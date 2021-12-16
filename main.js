@@ -1,4 +1,4 @@
-const reponse = ['A', 'B', 'A', 'C', 'A', 'D', 'A', 'A', 'A']; // Mettre les reponses ici !
+const reponse = ['A','','','','','','','','','','','','','','','','','']; // Mettre les 180 reponse ici !
 
 //////////////////////////////////////////////////////Programmes//////////////////////////////////////////////////////////
 
@@ -7,7 +7,7 @@ const value = ['none', 'none', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
 const data = ['--Please choose an option--', 'Aucune reponse', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 let number = 1;
 let result = 0;
-const count = 22;
+const count = 180; //180 Question
 
 
 function test() {
